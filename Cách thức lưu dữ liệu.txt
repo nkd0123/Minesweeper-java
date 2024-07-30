@@ -1,0 +1,10 @@
+Player nhập tên
+	=> bấm bắt đầu để vào chơi
+		=> nếu win thì lưu thời gian chơi ngắn nhất vào CSDL
+			+ Nếu kỷ lục thời gian chơi là null thì cập nhật
+			+ Nếu thời gian chơi thấp hơn kỷ lục thì cập nhật
+			+ Nếu thời gian chơi lớn hơn kỷ lục bỏ qua
+		=> Nếu thua thì bỏ qua
+
+			=> Dùng thuật toán sắp xếp theo thời gian chơi thấp tới cao
+				=> Dùng vòng lặp for hiển thị danh sách 10 người đứng đầu bảng xếp hạng
